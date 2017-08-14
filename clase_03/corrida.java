@@ -21,16 +21,3 @@ public class corrida {
     }//fin del main    
     
 }//fin de la clase
-
-
-
-
-
-
-
-
-
-
-
-
-
