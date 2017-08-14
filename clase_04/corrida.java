@@ -1,9 +1,6 @@
-
+//Cargando librerias
 import java.util.Random;
 import javax.swing.JOptionPane;
-
-
-
 
 public class corrida {
     public static void main(String[] args) {
@@ -12,7 +9,8 @@ public class corrida {
         int vec2[] = new int [5];
         int vec3[] = null, vec4;
         int[] vec5 = null, vec6 = null;
-        
+
+        //Diferentes formas de inicializar el código
         vec1 = iniVector(10);
         iniVector(vec2);
         vec3 = iniVector(10);
@@ -20,6 +18,8 @@ public class corrida {
         vec6 = iniVector(Integer.
                          parseInt(JOptionPane.
                                 showInputDialog("Digite tamaño")));
+        
+        //Imprime uno de los vectores
         impriVector(vec1);
     }
     
