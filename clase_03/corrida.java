@@ -14,6 +14,7 @@ public class corrida {
         //suma(5, 3);
         JOptionPane.showMessageDialog(null,"La suma es " + ejecu.suma(5, 3));
         
+        //invoca la subrutina de suma
         int c = ejecu.suma(6, -2);
         JOptionPane.showMessageDialog(null,"La suma es " + c);        
                 
