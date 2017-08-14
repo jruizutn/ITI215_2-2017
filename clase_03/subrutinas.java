@@ -18,6 +18,7 @@ public class subrutinas {
         return a+b;
     }
     
+    //utiliza libreria random para calcular aleatorios
     public int dados(){
         Random rnd = new Random();
         return rnd.nextInt(6)+1;
