@@ -18,7 +18,10 @@ public class subrutinas {
         return a+b;
     }
     
+<<<<<<< Updated upstream
     //utiliza libreria random para calcular aleatorios
+=======
+>>>>>>> Stashed changes
     public int dados(){
         Random rnd = new Random();
         return rnd.nextInt(6)+1;
