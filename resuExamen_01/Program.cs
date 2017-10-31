@@ -8,6 +8,7 @@ namespace resuExa_01
     class Program
     {
         //esta propiedad debe cambiarse de acorde a necesidad
+		//de cada uno de los discos donde corre la aplicación
         private static String ruta = @"C:\Users\jruiz\Desktop\Datos\";
 
         //método principal
